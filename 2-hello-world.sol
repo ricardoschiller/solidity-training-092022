@@ -3,7 +3,7 @@ pragma solidity ^0.8.7;
 
 contract HelloWorld {
 
-    //the solidity sintax is a little different from other languages, but easy to understand
+    //the solidity syntax is a little different from other languages, but easy to understand
     //notice the external, pure, and memory keywords
     function sayHello() external pure returns (string memory) {
         return "Hello World";
